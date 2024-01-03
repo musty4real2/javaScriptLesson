@@ -38,3 +38,80 @@ as mutability
 ourName=8; //changed value and datatype i.e mutation
 ourName='Anabella';
 
+
+
+let MyName;
+MyName='Raul'
+
+/* Note The let keyword is used to declare variable which is to be used in scope of where
+it is declared that is to say that the let declaration is only going to be used within the code 
+block/function in which it was used for declaration */
+
+
+const pi=3.142;
+/* 
+the const keyword is used to declare a variable that is in-mutable/ uneditable
+which means once the value is set the value can not be changed throughout the code block 
+or the program it becomes constant unchangeable.
+  */
+
+
+
+var a; //unimitailized variable 
+var b=2; //initailized variable using the assignment operator = to assign value 2
+
+a=7; //assigning value to the un-initailized variable declared already 
+
+/*CASE SENSITIVITY*/
+
+
+// declaration
+
+var StudLyCapVar;
+var properCamelCase;
+var TitleCaseOver;
+
+//assignment 
+
+StudLyCapVar=10;
+PRoperCAmelCAse="A String";
+tITLEcASEoVER=9000;
+
+/*the proper way to declare a variable properly is  */
+
+var studlyCapVar;
+var properCamelCase;
+var TitleCaseOver;
+
+
+
+/* Adding Numbers in JS*/
+/*
+Number is a data type in JavaScript which represents numeric data
+JS uses the + symbol as an addition operator when placed between two numbers.
+const myVar = 5 + 10;
+*/
+
+var sum= 10+10;
+console.log(sum);//output to the console the result of the variable
+
+var difference=45-33;//subtraction in JS
+
+console.log(difference);
+
+
+var product=8*10; //multiplication operation 
+
+console.log(product); //answer =80
+
+
+var division= 66 / 33 ;
+console.log(division); //the result of the quotient operation or division operation is 2
+
+
+
+
+
+
+
+
