@@ -1,4 +1,5 @@
 //Comment in JavaScript Code
+// all javascript synthax ends with a semi-colon 
 
 // is called in-line comment
 
@@ -21,4 +22,19 @@ Good commenting can help communicate the intent of your code—both for others a
 /*****************************************Declare JavaScript Variables*********************************/
 /*****************************************************************************************************/
 
+
+/** JavaScript provides eight different data types which are 
+undefined, null, boolean, string, symbol, bigint, number, and object.
+ */
+
+
+var ourName; 
+/*
+global declaration the variable could be use anywhere in the program 
+Note : the data type and value of the declaration could change at any point in time also known
+as mutability
+*/
+
+ourName=8; //changed value and datatype i.e mutation
+ourName='Anabella';
 
