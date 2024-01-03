@@ -145,12 +145,31 @@ var quotient=4.4 / 2.0;
 // result is 2.2
 
 
-// remainder is symbolized by %
+// remainder is symbolized by % 
+// the % is used to determine if a number is even or odd
+
+var remainder;
+remainder= 11 % 3;
+console.log(remainder); //result is 2
 
 
 
 
-
+// Introduction
+// Running JavaScript
+// Comment Your Code
+// Declare Variables
+// Storing Values with the Assignment Operator
+// Initializing Variables with the Assignment Operator
+// Uninitialized Variables
+// Case Sensitivity in Variables
+// Basic Math
+// Increment and Decrement
+// Decimal Numbers
+// Multiply Two Decimals
+// Divide Decimals
+// Finding a Remainder
+// Augmented Math Operations
 
 
 
