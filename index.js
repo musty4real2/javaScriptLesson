@@ -109,6 +109,46 @@ var division= 66 / 33 ;
 console.log(division); //the result of the quotient operation or division operation is 2
 
 
+//to increment a number means adding 1 to the current value
+
+
+var myVar=87;
+// myVar=myVar + 1;
+
+// the above method is a long method the short method is
+myVar++;
+console.log(myVar); //result is 88;
+
+
+//decrement 
+
+var myVarD=87;
+// myVar=myVar - 1;
+myVarD--;
+console.log(myVarD); //result is 88;
+
+
+
+// decimal point operation or floating point operations
+
+var ourDecimal=5.7;
+
+// ourDecimal=0.00009
+
+// multiply decimal
+
+var decimalProduct= 2.0 * 2.5;
+console.log(decimalProduct);// result of the above operation is 5.0
+
+// divide decimal
+var quotient=4.4 / 2.0;
+// result is 2.2
+
+
+// remainder is symbolized by %
+
+
+
 
 
 
