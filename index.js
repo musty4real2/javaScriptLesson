@@ -235,3 +235,70 @@ var str='my name is ' + myName + ' and i am well !!!';
 console.log(str);
 
 
+//finding string length
+
+
+var firstNameLength=0;
+var firstName='Ada';
+firstNameLength=firstName.length;
+
+
+var lastNameLength=0;
+var lastName='Lovelace';
+
+lastNameLength=lastName.length;
+console.log(firstNameLength);
+console.log(lastNameLength);
+
+
+
+//brackett notation for finding first character
+
+
+var firstLetterOfFirstName='';
+var firstName='Ada';
+firstLetterOfFirstName=firstName[0];
+
+var firstLetterOfLastName='';
+var lastName='Lovelace';
+firstLetterOfLastName=lastName[0];
+
+console.log(firstLetterOfFirstName);
+console.log(firstLetterOfLastName);
+
+// string immutability
+
+var myStrr='Jello World';
+myStrr='Hello World';
+
+//get last letter of a string 
+
+
+var lastLetterOfLastName=lastName[lastName.length -1];
+
+
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
+  var result='';
+
+  result+="The "+ myAdjective +' ' + myNoun+ ' '+ myVerb + " to the store "+ myAdverb;
+
+  return result;
+
+}
+
+
+
+console.log(wordBlanks("dog", "big", "ran", "quickly"));
+
+
+
+
+
+
+
+
+
+
+
+
