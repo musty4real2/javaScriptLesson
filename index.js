@@ -323,6 +323,23 @@ ModifyingArray[0]=56;//result = [56,64,99]
 console.log(ModifyingArray);
 
 
-
+// Declare String Variables
+// Escaping Literal Quotes
+// Quoting Strings with Single Quotes
+// Escape Sequences
+// Plus Operator
+// Plus Equals Operator
+// Constructing Strings with Variables
+// Appending Variables to Strings
+// Length of a String
+// Bracket Notation
+// Understand String Immutability
+// Find the Nth Character
+// Word Blanks
+// Arrays
+// Nest Arrays
+// Access Array Data
+// Modify Array Data
+// Access Multi-Dimensional Arrays
 
 
