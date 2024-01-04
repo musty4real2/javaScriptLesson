@@ -287,16 +287,40 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
 
 }
 
-
-
 console.log(wordBlanks("dog", "big", "ran", "quickly"));
 
+/******************Array**************************************************************/
+
+var ourArray=["John",23];
+var myArray=["Quincy",1];
 
 
 
+/*****************************************************Nested Array******************************************** */
 
 
+var newArray=[["The universe", 42],["Everything",101010]];
+var LatestArray=[["Bulls",23],["White Sox",45]];
 
+
+//Access Array data with indexes
+
+var numberArray=[50,60,70];
+var ourData=numberArray[0];//result is 50
+
+var LaArray=[50,60,70];
+var JData=LaArray[0];
+
+console.log(JData);
+
+
+/***********************************************Modifying Array***********************************/
+var ModifyingArray=[18,64,99];
+ModifyingArray[1]=45;//result  = [18,45,99]
+
+ModifyingArray[0]=56;//result = [56,64,99]
+
+console.log(ModifyingArray);
 
 
 
