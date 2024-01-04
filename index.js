@@ -175,7 +175,6 @@ console.log(remainder); //result is 2
 
 // DAY1 END
 
-
 var a;
 var b=2;
 
@@ -185,9 +184,6 @@ a=7;
 b=a;
 
 console.log(a);
-
-
-
 
 
 //strings literals
@@ -206,9 +202,6 @@ console.log(myStr);
 var url="<a href=\"https://www.example/com\" target=\"_blank\">Link</a>";
 
 console.log(url);
-
-
-
 
 var url2='<a href="https://www.example/com" target="_blank">Link</a>';
 
