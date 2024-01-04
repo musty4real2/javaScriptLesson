@@ -203,7 +203,7 @@ var lastName='Turing';
 var myStr="i am a \"double quoted\" string inside a \"double quote\"";
 console.log(myStr);
 
-var url="<a href=\"https://www.example/com\" target=\"_blank"\>Link</a>";
+var url="<a href=\"https://www.example/com\" target=\"_blank\">Link</a>";
 
 console.log(url);
 
