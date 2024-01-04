@@ -215,3 +215,23 @@ var url2='<a href="https://www.example/com" target="_blank">Link</a>';
 console.log(url2);
 
 
+// concatination 
+
+
+var senTence="i worked";
+var sent2=" very hard";
+
+console.log(senTence + sent2);
+
+// second method 
+
+senTence+="very hard using method2 concatinate";
+
+
+var myName='Musa';
+
+var str='my name is ' + myName + ' and i am well !!!';
+
+console.log(str);
+
+
