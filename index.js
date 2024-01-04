@@ -153,7 +153,7 @@ remainder= 11 % 3;
 console.log(remainder); //result is 2
 
 
-
+// DAY1
 
 // Introduction
 // Running JavaScript
@@ -172,5 +172,46 @@ console.log(remainder); //result is 2
 // Augmented Math Operations
 
 
+
+// DAY1 END
+
+
+var a;
+var b=2;
+
+
+a=7;
+
+b=a;
+
+console.log(a);
+
+
+
+
+
+//strings literals
+
+
+
+var firstName='Musty';
+var lastName='Turing';
+
+
+
+//escaping a string like i don't within a string 
+var myStr="i am a \"double quoted\" string inside a \"double quote\"";
+console.log(myStr);
+
+var url="<a href=\"https://www.example/com\" target=\"_blank"\>Link</a>";
+
+console.log(url);
+
+
+
+
+var url2='<a href="https://www.example/com" target="_blank">Link</a>';
+
+console.log(url2);
 
 
