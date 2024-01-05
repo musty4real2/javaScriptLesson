@@ -340,6 +340,7 @@ console.log(ModifyingArray);
 
 //there is knowledge that is waste 
 //the quiter you become
+//a home is not complete unitl you can write you codes
 
 
 
