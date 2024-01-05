@@ -339,6 +339,7 @@ console.log(ModifyingArray);
 // learning is a continous process
 
 //there is knowledge that is waste 
+//the quiter you become
 
 
 
