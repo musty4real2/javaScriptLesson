@@ -343,4 +343,9 @@ console.log(ModifyingArray);
 //a home is not complete unitl you can write you codes
 
 
+//const cars = ["Saab", "Volvo", "BMW"];
+
+// const array_name = [item1, item2, ...]; 
+
+
 
