@@ -348,4 +348,10 @@ console.log(ModifyingArray);
 // const array_name = [item1, item2, ...]; 
 
 
+const cars = [];
+cars[0]= "Saab";
+cars[1]= "Volvo";
+cars[2]= "BMW";
+
+
 
