@@ -375,3 +375,16 @@ console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 
 
+// var x;
+// let y;
+
+// x = 5;
+// y = 6;
+// let z = x + y;
+
+
+
+
+
+
+
