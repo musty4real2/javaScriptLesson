@@ -34,6 +34,6 @@ fivePeopleName.push('gwagwalada');
 
 console.log(fivePeopleName);
 
-console.log('merci baceau amigos');
+console.log('Merci Beaceau Amigos');
 
 
