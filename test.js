@@ -36,3 +36,8 @@ console.log(fivePeopleName);
 
 console.log('Merci Beaceau Amigos');
 
+
+
+function getFiratName(){
+    console.log('The first name is ')
+}
