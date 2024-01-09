@@ -41,3 +41,12 @@ console.log('Merci Beaceau Amigos');
 function getFiratName(){
     console.log('The first name is ')
 }
+
+
+getFiratName();
+
+
+let name='Maaz Jnr';
+function getMessage(name){
+    console.log("Welcome "+ name);
+}
