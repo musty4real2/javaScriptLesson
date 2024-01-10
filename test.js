@@ -29,24 +29,39 @@
 
 
 
-let fivePeopleName = ['promise','malik','adebakin','scholar','summer'];
-fivePeopleName.push('gwagwalada');
+// let fivePeopleName = ['promise','malik','adebakin','scholar','summer'];
+// fivePeopleName.push('gwagwalada');
 
-console.log(fivePeopleName);
+// console.log(fivePeopleName);
 
-console.log('Merci Beaceau Amigos');
+// console.log('Merci Beaceau Amigos');
 
 
 
-function getFiratName(){
-    console.log('The first name is ')
+// function getFiratName(){
+//     console.log('The first name is ')
+// }
+
+
+// getFiratName();
+
+
+
+// function getMessage(name){
+//     console.log("Welcome "+ name);
+// }
+
+
+// var name='MaazJnr';
+
+// getMessage(name);
+
+
+// let i = 0;
+for(let i = 0; i < 10; i ++){
+    console.log("the current value of i is " + i);
 }
 
 
-getFiratName();
 
 
-let name='Maaz Jnr';
-function getMessage(name){
-    console.log("Welcome "+ name);
-}
