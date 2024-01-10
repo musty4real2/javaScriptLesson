@@ -58,9 +58,9 @@
 
 
 // let i = 0;
-for(let i = 0; i < 10; i ++){
-    console.log("the current value of i is " + i);
-}
+// for(let i = 0; i < 10; i ++){
+//     console.log("the current value of i is " + i);
+// }
 
 
 // nice 
