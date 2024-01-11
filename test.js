@@ -65,10 +65,10 @@
 
 // nice 
 
-var outerFit = 'T-Shirt';
+// var outerFit = 'T-Shirt';
 
-function  myOutFit(){
-    return outerFit;
-}
+// function  myOutFit(){
+//     return outerFit;
+// }
 
-console.log(myOutFit(outerFit));
+// console.log(myOutFit(outerFit));
