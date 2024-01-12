@@ -72,3 +72,18 @@
 // }
 
 // console.log(myOutFit(outerFit));
+
+
+
+var names=["Hole-in-one","Eagle","Birdie","Par","Bogey","Double Boguey"];
+
+function golfScore(par, strokes){
+    if ( strokes == 1 ){
+        return names[0];
+    }else if ( strokes <= par - 2 ){
+        name[1];
+    }else if ( strokes == par - 1 ){
+        name[2];
+    }
+    return "Change me";
+}
