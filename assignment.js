@@ -88,3 +88,11 @@ let car = {
 console.log("Brand: " + car.brand);
 console.log("Model: " + car.model);
 console.log("Year: " + car.year);
+
+
+// Write a JavaScript code snippet that alerts "Button clicked!"
+//  when a button with the id "myButton" is clicked
+
+document.getElementById("myButton").addEventListener("click", function() {
+alert("Button clicked!");
+});
