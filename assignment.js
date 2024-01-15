@@ -52,9 +52,39 @@ function weatherCondition(temperature){
     }else if(temperature >=30){
         return(temperature + " It's a hot day!");
     }else{
-        return("no condition was met!");
+        return("It's a pleasant day");
     }
 }
 
 console.log(weatherCondition(31));
 
+
+// Create a function called square that takes a parameter num and 
+// returns the square of that number
+
+function square(num) {
+    return num * num;
+}
+let result = square(5);
+console.log(result); 
+
+
+// Use a for loop to print the numbers from 1 to 5 to the console.
+
+for(let i = 1; i <= 5; i ++){
+    console.log(i);
+}
+
+// Create an object representing a car with properties brand, 
+// model, and year. Assign values of your choice to these properties.
+
+
+
+let car = {
+    brand: "Toyota",
+    model: "Camry",
+    year: 2022
+} 
+console.log("Brand: " + car.brand);
+console.log("Model: " + car.model);
+console.log("Year: " + car.year);
