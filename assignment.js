@@ -86,8 +86,8 @@ let car = {
     year: 2022
 } 
 console.log("Brand: " + car.brand);
-console.log("Model: " + car.model);
-console.log("Year: " + car.year);
+// console.log("Model: " + car.model);
+// console.log("Year: " + car.year);
 
 
 // Write a JavaScript code snippet that alerts "Button clicked!"
