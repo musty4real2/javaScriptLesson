@@ -100,11 +100,11 @@ for(let i = 1; i <= 5; i ++){
 
 
 
-let car = {
-    brand: "Toyota",
-    model: "Camry",
-    year: 2022
-} 
+// let car = {
+//     brand: "Toyota",
+//     model: "Camry",
+//     year: 2022
+// } 
 
 let carArray = [
     {
