@@ -3,13 +3,12 @@
 
 
 
-function questionOne(){
-    let greeting = "Hello, JavaScript!";
-    return greeting;
-}
+// function questionOne(){
+//     let greeting = "Hello, JavaScript!";
+//     return greeting;
+// }
 
-
-console.log(questionOne());
+// console.log(questionOne());
 
 
 // 2. *Data Types:*
@@ -17,24 +16,25 @@ console.log(questionOne());
 //    What are the basic data types in JavaScript?
 
 
-function questionTwo(){
-    let answer = "\nJavaScript provides eight different data types which are \n undefined, null, boolean, string, symbol, bigint, number, and object."
-    console.log(answer);
-}
-questionTwo();
+// function questionTwo(){
+//     let answer = "\nJavaScript provides eight different data types which are \n undefined, null, boolean, string, symbol, bigint, number, and object.";
+//     console.log(answer);
+// }
+// questionTwo();
 
 
 
 // 3. *Array Manipulation:*
-//    Create an array called fruits containing three fruits of your choice. Add a new fruit to the end of the array
+//    Create an array called fruits containing three fruits of your choice. Add 
+// a new fruit to the end of the array
 
 
-function arryFruit(){
-    let fruit=["Apple","Cashew","Peach"];
-    fruit.push("Banana");
-    return fruit;
-}
-console.log(arryFruit());
+// function arrayFruit(){
+//     let fruit = ["Apple","Cashew","Peach"];
+//     fruit.pop("Banana");
+//     return fruit;
+// }
+// console.log(arrayFruit());
 
 
 // 4. *Conditional Statements:*
@@ -56,7 +56,7 @@ function weatherCondition(temperature){
     }
 }
 
-console.log(weatherCondition(31));
+// console.log(weatherCondition(20));
 
 
 // Create a function called square that takes a parameter num and 
@@ -66,17 +66,37 @@ function square(num) {
     return num * num;
 }
 let result = square(5);
-console.log(result); 
+// console.log(result); 
 
 
 // Use a for loop to print the numbers from 1 to 5 to the console.
 
 for(let i = 1; i <= 5; i ++){
-    console.log(i);
+    // console.log(i);
 }
 
 // Create an object representing a car with properties brand, 
 // model, and year. Assign values of your choice to these properties.
+
+
+
+// let car = {
+//     brand: "Toyota",
+//     model: "Camry",
+//     year: 2022
+// } 
+// console.log("Brand: " + car.brand);
+// console.log( car[{1}]);
+// console.log("Year: " + car.year);
+
+
+// Write a JavaScript code snippet that alerts "Button clicked!"
+//  when a button with the id "myButton" is clicked
+
+// document.getElementById("myButton").addEventListener("click", function() {
+// alert("Button clicked!");
+// });
+
 
 
 
@@ -85,14 +105,17 @@ let car = {
     model: "Camry",
     year: 2022
 } 
-console.log("Brand: " + car.brand);
-// console.log("Model: " + car.model);
-// console.log("Year: " + car.year);
 
-
-// Write a JavaScript code snippet that alerts "Button clicked!"
-//  when a button with the id "myButton" is clicked
-
-document.getElementById("myButton").addEventListener("click", function() {
-alert("Button clicked!");
-});
+let carArray = [
+    {
+        name: "malik"
+    },
+    {
+        age: 25
+    },
+    {
+        school: "mogadishu"
+    }
+];
+// console.log("Brand: " + car.brand);
+console.log( carArray[0].name);
