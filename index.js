@@ -36,7 +36,7 @@ as mutability
 */
 
 ourName=8; //changed value and datatype i.e mutation
-ourName='Anabella';
+// ourName='Anabella';
 
 
 
